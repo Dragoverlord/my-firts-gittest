@@ -1,0 +1,141 @@
+/* hover- отрабатывает при наведений */
+
+/* div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+}
+
+div:hover{
+    background-color: yellow;
+    transition: 2s;
+} */
+
+/* Псевдоклассы для ссылок */
+
+/* visited */
+
+a:visited{
+    color: rgb(23, 194, 7);
+    text-decoration: none;
+}
+
+/* active */
+
+a:active{
+    color: black;
+}
+
+.block{
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+}
+
+.block:active{
+    background-color: teal;  
+}
+
+/* first-child */
+
+ul{
+    list-style-type:none;
+}
+
+/* div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+li:first-child > div {
+    background-color: purple;
+}
+/* nth child */
+
+li:nth-child(2)>div{
+    background-color: rgb(115, 255, 0);
+}
+
+/* last child */
+
+li:last-child>div{
+    background-color: blue;
+}
+
+/*focus */
+/* input{
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: white;
+    transition: 1s;
+}
+
+input:focus{
+    background-color: rgba(0, 0, 155, 0.973);
+    transition: 1s;
+} */
+
+/* :not */
+
+.div-1,
+.div-2 {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+div:not(.div-2) {
+    background-color: yellow;
+}
+
+/* valid, invalid */
+
+input:valid{
+    background-color: rgb(9, 219, 44);
+}
+input:invalid{
+    background-color: red;
+}
+
+/* псевдоэлементы */
+
+h1::before {
+    content: "js27";
+}
+
+h1::after {
+    content: "JS";
+}
+ 
+/* selection */
+
+p::selection {
+    color: red;
+    background-color: black;
+}
+
+/*  first-letter, first-line  */
+
+h2::first-letter{
+    color: red;
+    background-color: rgb(107, 8, 8);
+    font-size: 20px;
+}
+
+p::first-line{
+    color: red;
+    font-size: 25px;
+}

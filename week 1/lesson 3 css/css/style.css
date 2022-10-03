@@ -1,0 +1,42 @@
+/* селекторы в css */
+/* селектор дял всех элементов htm; */
+*{
+    color: red;
+}
+/* селектор по тегу */
+div {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    /* margin: 50px; */
+    /* margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px; */
+    /* margin: 10px 20px ; */
+    /* margin: 5px 10px 20px; */
+    margin: 10px 20px 30px 40px;
+    /* padding: 15px 10px; */
+    /* padding: 10px 15px 5px; */
+    /* padding: 20px 10px 30px 40px; */
+    text-align: center;
+}
+/* селектор по классу  */
+.block{
+    background-color: burlywood !important;
+}
+/* селектор от id */
+#block-1{
+    background-color: yellowgreen;
+}
+ /* ================================================  */
+a {
+    text-decoration: none;
+}
+
+.inp {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gothic A1", sans-serif;
+}
+
+header {
+  background: linear-gradient(
+      287.15deg,
+      #450e4b 0%,
+      #3c0c41 24.48%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063;
+  height: 800px;
+}
+
+.container {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
+
+.links {
+  width: 382px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+}
+
+.desc {
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.desc button {
+  height: 66px;
+  width: 170px;
+  border: 0;
+  background: #fc0a7e;
+  color: white;
+}
+
+.desc h1 {
+  font-size: 80px;
+}
+
+.desc p {
+  font-size: 30px;
+}
+
+.desc-phone {
+  display: flex;
+  justify-content: center;
+}
+
+.desc-phone {
+  margin: 44px 90px 30px 0;
+}
+.dark-section {
+  background: rgba(27, 27, 27, 1);
+  border-radius: 0px;
+  height: 957px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dark-sect_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 221px;
+  align-items: center;
+  margin-top: 50px;
+}
+.dark-sect_img {
+  display: flex;
+  justify-content: center;
+}
+.dark-sect_text span {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(168, 168, 168, 1);
+}
+.dark-sect_text p {
+  width: 607px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+}
+main {
+  width: 1440px;
+  height: 6194px;
+  background: #ffffff;
+}
+.orders__order-block {
+  margin: 80px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.orders__order-block-left {
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.orders__order-block-left > h3 {
+  font-size: 38px;
+  line-height: 48px;
+  margin: 25px 0 22px;
+}
+.orders__order-block-left > span {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+.orders__order-block-left > p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+.activity {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.activity div {
+  width: 371px;
+}
+.activity h4 {
+  margin: 40px 0 17px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.hours {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.hours h2 {
+  font-size: 59px;
+  line-height: 90px;
+}
+.hours h4 {
+  font-size: 18px;
+  line-height: 24px;
+}
+/* food start */
+.food {
+  display: flex;
+  flex-direction: column;
+}
+.food__block {
+  display: flex;
+  justify-content: space-around;
+}
+.food__block-text {
+  width: 330px;
+}
+/* food end */
+.text__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#text__block-p {
+  height: 200px;
+  width: 700px;
+  left: 640px;
+  top: 116px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+}
+#text__block-img {
+  display: flex;
+  width: 58px;
+  height: 54px;
+}
+#text__block-span-1 {
+  display: flex;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  position: absolute;
+  left: 600px;
+  top: 5440px;
+
+  color: #6b6b6b;
+}
+
+#text__block-span-2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  position: absolute;
+  left: 740px;
+  top: 5440px;
+
+  color: #6b6b6b;
+}
+#text__block-img-1 {
+  display: flex;
+  position: absolute;
+  height: 40px;
+  width: 1296px;
+  left: 80px;
+  top: 5640px;
+  border-radius: 0px;
+}
+#text__block-img-2 {
+  display: flex;
+  position: absolute;
+  height: 115px;
+  width: 1296px;
+  left: 72px;
+  top: 5846.5px;
+  border-radius: 0px;
+}
+#Phones {
+  position: absolute;
+  height: 718px;
+  width: 1400px;
+  left: 30px;
+  top: 6486px;
+}
+#Vectors {
+  position: absolute;
+  height: 773px;
+  width: 1499px;
+  left: 0px;
+  top: 6865px;
+}
+
+#Vectors-text {
+  position: absolute;
+  height: 234px;
+  width: 395px;
+  left: 523px;
+  top: 7124px;
+  border-radius: 0px;
+}
+.End__block {
+  position: absolute;
+  background: #1b1b1b;
+  border-radius: 0px;
+  color: white;
+  height: 1063px;
+  width: 1499px;
+  left: 0px;
+  top: 7484px;
+  border-radius: 0px;
+}
+#End_text {
+  position: absolute;
+  height: 303px;
+  width: 465px;
+  left: 488px;
+  top: 189px;
+  border-radius: 0px;
+}
+#icon-2 {
+  position: absolute;
+  height: 104px;
+  width: 136px;
+  left: 648px;
+  top: 8175px;
+  border-radius: 0px;
+}
+.end__block-text img {
+  position: absolute;
+  height: 104px;
+  width: 136px;
+  left: 648px;
+  top: 8075px;
+  border-radius: 0px;
+}
+#Email {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  left: calc(50% - 30px / 2 - 257px);
+  top: 8400.3px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+  color: #6b6b6b;
+}
+#Instagram {
+  position: absolute;
+  width: 55px;
+  height: 20px;
+  left: calc(50% - 55px / 2 - 184.5px);
+  top: 8400.3px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #6b6b6b;
+}
+#Facebook {
+  position: absolute;
+  width: 54px;
+  height: 20px;
+  left: calc(50% - 54px / 2 - 100px);
+  top: 8400.3px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #6b6b6b;
+}
+#Twitter {
+  position: absolute;
+  width: 38px;
+  height: 20px;
+  left: calc(50% - 38px / 2 - 24px);
+  top: 8400.3px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #6b6b6b;
+}
+#Image {
+  position: absolute;
+  width: 103px;
+  height: 20px;
+  left: calc(50% - 103px / 2 + 76.5px);
+  top: 8400.3px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #6b6b6b;
+}
+#Powered {
+  position: absolute;
+  width: 115px;
+  height: 20px;
+  left: calc(50% - 115px / 2 + 215.5px);
+  top: 8400.3px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #6b6b6b;
+}

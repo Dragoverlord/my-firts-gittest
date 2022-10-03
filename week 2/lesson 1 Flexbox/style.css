@@ -1,0 +1,76 @@
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+.parent {
+    background-color: white;
+    border: 3px solid black;
+    width: auto;
+    height: 400px;
+}
+.example-1 {
+    display: flex;
+}
+.example-2 {
+    display: flex;
+    flex-direction: column;
+}
+.example-3 {
+    display: flex;
+    flex-direction: row;
+}
+.example-4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.example-5 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.example-6 {
+    display: flex;
+    flex-direction: wrap;
+}
+.example-7 {
+    display: flex;
+    justify-content: space-between;
+}
+.example-8 {
+    display: flex;
+    justify-content: space-around;
+}
+.example-9 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.example-10 {
+    display: flex;
+    justify-content: center;
+}
+.example-11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example-12 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.example-13 {
+    display: flex;
+}
+#third  {
+    order: -1;
+}
+#fifth {
+    order: -2;
+}
+#one {
+    order: 1;
+}
